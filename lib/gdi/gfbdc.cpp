@@ -271,7 +271,7 @@ void gFBDC::setResolution(int xres, int yres, int bpp)
 
 #ifdef CONFIG_ION
 	if (grc)
-		grc->unlock()
+		grc->unlock();
 #endif
 }
 
